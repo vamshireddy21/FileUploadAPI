@@ -6,11 +6,21 @@ Configurations
 
 Open the application.properties, config.properties file and set your own configurations.
 
+What you'll need
+
+JDK 1.8 or later
+Maven 3 or later
+Tomcat 7.0
+
 Technology Stack
 
 Java 8
-Maven > 3.0
 Spring Boot 1.5.8.RELEASE
+Thymeleaf
+jQuery(jars)
+Java Script
+Maven
+
 
 Using the CLI
 
