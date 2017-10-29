@@ -14,7 +14,6 @@ public class FileUploadRestApiApplication {
 	public static void main(String[] args) {
 		try {
 			String outputDirPath = ConfigurationManager.getInstance().getProperty("file.upload.output.DirectoryPaths");
-			FileService fileHandler = new FileService();
 			FileService.outputDirPath = outputDirPath;
 			SpringApplication.run(FileUploadRestApiApplication.class, args);
 		} catch (IOException e) {
